@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width:1600px;
+	margin:0px;
+}
+
+/*头部第一部分*/
+
+
+
+.head{
+	width:1000px;
+	margin:50px auto;
+
+}
+.head1{
+	width:100%;
+	display:flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content:space-around;
+}
+
+.middle{
+	width:1000px;
+	margin:60px auto 100px auto;
+	display:flex;
+	flex-wrap:wrap;
+	align-content:center;
+	justify-content:space-around;
+}
+
+/*换行，中间三栏字体宽度的设置*/
+.wid{
+	width:30%;
+	margin:10px;
+	word-wrap:break-word;
+	word-break: keep-all;
+}
+
+.title{
+	text-align:center;
+	margin:50px;
+}
+
+
+.img1{
+	width:50%;
+	margin:30px 10px 100px 10px;
+}
+
+
+.content{
+	width:40%;
+	margin:30px 10px 100px 10px;
+	
+}
+
+.wid1{
+	width:50%;
+	margin: 10px auto;
+	word-wrap:break-word;
+	word-break: keep-all;
+	text-align: center;
+}
+
+
+.foot{
+	background-color:black;
+	width:1600px;
+	height:400px;
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+
+.white{
+	color:white;
+}
+.col{
+	width:20%;
+	margin:30px 30px;
+	
+}
