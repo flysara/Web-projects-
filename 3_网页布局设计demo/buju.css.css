@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*头部设置*/
+header{
+	width:100%;
+	height:55px; 
+	background-color:rgba(14,14,14,1.00);
+}
+
+.inhead{
+	width:960px;
+	margin:0 auto;
+
+}
+
+.logo{
+	float:left;
+	margin:13px 0;
+
+}
+
+.nav1{
+	float:right;
+	margin:0;
+	
+}
+
+.white{
+	color:white;
+}
+
+ul{
+	list-style-type: none;
+}
+li{
+	display:inline;
+
+}
+a{
+	text-decoration: none;
+}
+
+
+/*链接样式1*/
+a.a1:link,a.a1:visited {
+	color:white;
+}
+a.a1:hover, a.a1:active{
+	color:aquamarine;
+	font-weight:bold;
+}
+
+/*banner部分*/
+.banner{
+	width:100%;
+	background-color:rgba(23,147,19,1.00);
+	height:250px;
+	position:relative;
+	
+}
+
+
+.banner1{
+	position:absolute;
+	margin-right: 100px;
+	bottom: 0;
+	right: 0;
+	
+}
+
+/*banner里的导航栏设置*/
+
+.position1{
+	  position:absolute;
+	bottom: 17px;
+    right: 105px;
+	display:inline;
+}
+.position2{
+	  position:absolute;
+	bottom: 17px;
+    right: 70px;
+	display:inline;
+}
+
+.position3{
+	  position:absolute;
+	bottom: 17px;
+    right: 35px;
+	display:inline;
+}
+.position4{
+	  position:absolute;
+	bottom: 17px;
+    right: 0px;
+	display:inline;
+}
+
+/*链接样式2*/
+a.a2:link,a.a2:visited,a.a2:hover,a.a2:active{
+	color:black;
+  
+}
+a.a2:link,a.a2:visited{
+	display:inline-block;
+	background-color: rgba(224,224,224,0.75);
+	width:30px;
+	height:30px;
+	text-align: center;
+	font-size:18px;
+	padding-top:4px;
+
+}
+a.a2:hover{
+	display:inline-block;
+	background-color: rgba(224,224,224,1);
+	width:30px;
+	height:40px;
+	padding-top:-4px;
+	
+}
+a.a2:active{
+	display:inline-block;
+	background-color: rgba(224,224,224,0.75);
+	width:30px;
+	height:30px;
+	text-align: center;
+	font-size:18px;
+	padding-top:4px;
+}
+
+/*主导航区域*/
+
+.nav2{
+	width:100%;
+	height:60px;
+	border-bottom-style:solid;
+	border-bottom-width: thin;
+	border-bottom-color: darkgrey;
+	position:relative;
+	
+	
+}
+
+.button{
+	width:960px;
+  
+	position:absolute;
+	bottom:0px;
+	left:50%;
+    margin-left:-480px;
+	
+	
+}
+.position11{
+	position:absolute;
+	left:0;
+	bottom:0px;
+}
+.position22{
+	position:absolute;
+	bottom:0px;
+	left:80px;
+}
+.position33{
+	position:absolute;
+	bottom:0px;
+	left:160px;
+}
+
+.buttonbox{
+	display:inline-block;
+	width:80px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	border-style: solid;
+	border-width: thin;
+	border-bottom-style: none;
+	border-color: lightgrey;
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
+	background-color:lightgrey;
+}
+
+/*链接样式3*/
+
+a.a3:link,a.a3:visited,a.a3:hover,a.a3:active{
+	color:black;
+ 
+}
+
+a.a3:hover{
+	display:inline-block;
+	width:80px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	border-style: solid;
+	border-width: thin;
+	border-color: lightgrey;
+	border-bottom-style: none;
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
+	background-color:lightgrey;
+	background-color:white;
+
+}
+
+/*内容部分*/
+.main{
+	width:960px;
+	height:100%;
+	display:flex;
+	flex-wrap: wrap;
+	margin:0 auto;
+}
+.content1{
+	padding:80px;
+	margin:5px;
+	border-style:solid;
+	border-width: thin;
+	border-color: lightgrey;
+}
+
+/*底部信息部分*/
+.footer{
+	width:100%;
+	height:100px;
+	background-color:gray;
+	
+}
+.auther{
+	text-align:center;
+	color:white;
+	padding-top:15px;
+}
+
+
