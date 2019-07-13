@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width:1600px;
+	height:1824px;
+	margin:0px;
+	padding:0px;
+}
+
+/*头部部分*/
+.main{
+	margin:90px 215px auto 215px;
+	text-align:center;
+}
+.main1{
+	margin-left: 384px;
+	margin-right:384px;
+	margin-top:40px;
+}
+
+.small{
+	font-size: 12px;
+}
+.small1{
+	font-size:14px;
+}
+td{
+	padding-left:30px;
+	padding-bottom:75px;
+}
+tr{
+	height:125px;
+}
+h4{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+/*灰色背景部分*/
+.grey{
+	background-color: rgba(222,222,222,1.00);
+	height:600px;
+	width:100%;
+	position:relative;
+}
+
+.position{
+	position:absolute;
+	margin-left:1015px;
+	top:65px;
+	
+}
+
+.position1{
+	position:absolute;
+	top:50%;
+	height:200px;
+	margin-top:-100px;
+	margin-left: 300px;
+}
+
+.white{
+	color:white;
+}
+.bigger{
+	font-size:50px;
+}
+.next{
+	margin-bottom:0px;
+	margin-top:1px;
+}
+
+
+/*连接部分设置*/
+
+a:link,a:visited{
+	color:white;
+	font-size:30px;
+	
+}
+a:hover{
+
+	color:white;
+	font-weight:bolder;
+	font-size:35px;
+}
+
+/*尾部部分*/
+.foot{
+	width:90%;
+	height:190px;
+	display:flex;/*利用弹性盒子来让它的子元素等间距铺开*/
+	align-items: center;
+	justify-content: space-around;
+}
+
+
